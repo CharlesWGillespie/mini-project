@@ -9,8 +9,8 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #FDF8F5;
-  color: #4F4846;
+  background-color: #86d3ff;
+  color: #000000;
 }
 
 h1,
@@ -30,7 +30,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #FDF8F5;
+  color: #ffffff;
 }
 
 header,
@@ -38,20 +38,20 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #266150;
+  background-color: #5a4efd;
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
+  border-bottom: 10px solid #8cff7d;
 }
 
 footer {
   position: absolute;
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
+  border-bottom: 10px solid #8cff7d;
+  color: #ffffff;    
 }
 
 figure {
@@ -66,8 +66,8 @@ img {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+  border-top: 3px solid #8cff7d;
+  background-color:  #5a4efd;
 }
 
 form {
@@ -75,7 +75,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 5px solid #8cff7d;
   border-radius: 20px;
 }
 
@@ -106,8 +106,10 @@ button {
 /* Class Selectors */
 .text-center {
   text-align: center;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 .text-right {
   text-align: right;
+  font-family:Arial, Helvetica, sans-serif;
 }
